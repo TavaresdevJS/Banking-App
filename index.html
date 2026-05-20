@@ -6,8 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banking App</title>
     <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
+    <!-- NAVIGATION BAR -->
+    <nav>
+         <p class="welcome">Log in to get started</p>
+         <form class="login">
+            <input type="text" placeholder="user" class="login__input login__input--user"/>
+            <input type="text" placeholder="PIN" maxlength="4" class="login__input login__input--pin"/>
+            <button class="login__btn">&rarr;</button>
+         </form>
+    </nav>
     <script src="js/script.js"></script>
 </body>
 </html>
